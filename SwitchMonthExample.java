@@ -1,11 +1,8 @@
 public class SwitchMonthExample {
     public static void main(String[] args) {
-        //Specifying month number
-        int month=7;
+        int month=11;
         String monthString="";
-        //Switch statement
         switch(month){
-            //case statements within the switch block
             case 1: monthString="1 - January";
                 break;
             case 2: monthString="2 - February";
@@ -32,7 +29,6 @@ public class SwitchMonthExample {
                 break;
             default:System.out.println("Invalid Month!");
         }
-        //Printing month of the given number
         System.out.println(monthString);
     }
 }
